@@ -1,6 +1,6 @@
 # What's this ?
 
-html ファイルの <code> タグをブラウザ上でクリックした時にコピーできるようにする javascript を埋め込む  
+html ファイルの `<code>` タグをブラウザ上でクリックした時にコピーできるようにする javascript を埋め込む  
 
 # Requirements
 
