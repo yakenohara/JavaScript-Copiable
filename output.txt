@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title></title>
+        <style>
+</style>
+        
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Microsoft/vscode/extensions/markdown-language-features/media/markdown.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Microsoft/vscode/extensions/markdown-language-features/media/highlight.css">
+<style>
+            body {
+                font-family: -apple-system, BlinkMacSystemFont, 'Segoe WPC', 'Segoe UI', system-ui, 'Ubuntu', 'Droid Sans', sans-serif;
+                font-size: 11px;
+                line-height: 1.6;
+            }
+        </style>
+        <style>
+.task-list-item { list-style-type: none; } .task-list-item-checkbox { margin-left: -20px; vertical-align: middle; }
+</style>
+        
+        
+        
+    </head>
+    <body class="vscode-light">
+        <p>a:<code onClick="func_onClick(this)">a</code><br>
+b:<code onClick="(function(str_innerText){console.log(str_innerText);}(this.innerText));" onMouseOver="this.style.background='#00ff0f'" onMouseOut="this.style.background=''" title="Click to Copy">B</code></p>
+C:<code onClick="(function(obj_this){   var range = document.createRange();     range.selectNodeContents(obj_this);     window.getSelection().addRange(range);  document.execCommand('copy');   console.log( 'String `' + obj_this.innerHTML + '` have been copied.');    }(this));" onMouseOver="this.style.background='#00ff0f'" onMouseOut="this.style.background=''" title="Click to Copy">C</code></p>
+
+    </body>
+    <script>
+        function func_onClick(obj_this){
+            var range = document.createRange();
+            range.selectNodeContents(obj_this);
+            window.getSelection().addRange(range);
+        }
+    </script>
+    </html>
