@@ -9,7 +9,9 @@ var str_after = `
         (function(obj_this){
             var range = document.createRange(); 
             range.selectNodeContents(obj_this); 
-            window.getSelection().addRange(range); 
+            var obj_selection = window.getSelection();
+            obj_selection.removeAllRanges();
+            obj_selection.addRange(range); 
             document.execCommand('copy'); 
             /* <for IE 11 only> */
             try{
