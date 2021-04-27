@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title></title>
+        <style>
+</style>
+        
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Microsoft/vscode/extensions/markdown-language-features/media/markdown.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Microsoft/vscode/extensions/markdown-language-features/media/highlight.css">
+<style>
+            body {
+                font-family: -apple-system, BlinkMacSystemFont, 'Segoe WPC', 'Segoe UI', system-ui, 'Ubuntu', 'Droid Sans', sans-serif;
+                font-size: 11px;
+                line-height: 1.6;
+            }
+        </style>
+        <style>
+.task-list-item { list-style-type: none; } .task-list-item-checkbox { margin-left: -20px; vertical-align: middle; }
+</style>
+        
+        
+        
+    </head>
+    <body class="vscode-body vscode-light">
+        <p><code onClick="(function(obj_this){var range = document.createRange(); range.selectNodeContents(obj_this); var obj_selection = window.getSelection();obj_selection.removeAllRanges();obj_selection.addRange(range); document.execCommand('copy'); /* <for IE 11 only> */try{window.clipboardData.setData('text', obj_this.innerHTML);}catch(e){/* nothing to do */}/* </for IE 11 only> */console.log( 'String `' + obj_this.innerHTML + '` have been copied.'); }(this));" onMouseOver="this.style.background='#00ff0f'" onMouseOut="this.style.background=''" title="Click to Copy">node_modules</code> 配下も含めて、 PJ をまるごと別 PC にもってくれば、 <code onClick="(function(obj_this){var range = document.createRange(); range.selectNodeContents(obj_this); var obj_selection = window.getSelection();obj_selection.removeAllRanges();obj_selection.addRange(range); document.execCommand('copy'); /* <for IE 11 only> */try{window.clipboardData.setData('text', obj_this.innerHTML);}catch(e){/* nothing to do */}/* </for IE 11 only> */console.log( 'String `' + obj_this.innerHTML + '` have been copied.'); }(this));" onMouseOver="this.style.background='#00ff0f'" onMouseOut="this.style.background=''" title="Click to Copy">npm install</code> せずに実行できる。<br>
+*** ただし、 *** <code onClick="(function(obj_this){var range = document.createRange(); range.selectNodeContents(obj_this); var obj_selection = window.getSelection();obj_selection.removeAllRanges();obj_selection.addRange(range); document.execCommand('copy'); /* <for IE 11 only> */try{window.clipboardData.setData('text', obj_this.innerHTML);}catch(e){/* nothing to do */}/* </for IE 11 only> */console.log( 'String `' + obj_this.innerHTML + '` have been copied.'); }(this));" onMouseOver="this.style.background='#00ff0f'" onMouseOut="this.style.background=''" title="Click to Copy">node_modules</code> の各 Package (Module) 配下の package.json 内には、<code onClick="(function(obj_this){var range = document.createRange(); range.selectNodeContents(obj_this); var obj_selection = window.getSelection();obj_selection.removeAllRanges();obj_selection.addRange(range); document.execCommand('copy'); /* <for IE 11 only> */try{window.clipboardData.setData('text', obj_this.innerHTML);}catch(e){/* nothing to do */}/* </for IE 11 only> */console.log( 'String `' + obj_this.innerHTML + '` have been copied.'); }(this));" onMouseOver="this.style.background='#00ff0f'" onMouseOut="this.style.background=''" title="Click to Copy">npm install</code> した時の PC 内のインストールパス(絶対パス)が &quot;_where&quot; プロパティとして記録されている。<br>
+絶対パスなので、ユーザー名など個人情報が含まれる可能性があるので、消しておくのが無難。(消しても動作に影響はない)<br>
+これを消してくれるのが <a href="https://www.npmjs.com/package/removeNPMAbsolutePaths"><code onClick="(function(obj_this){var range = document.createRange(); range.selectNodeContents(obj_this); var obj_selection = window.getSelection();obj_selection.removeAllRanges();obj_selection.addRange(range); document.execCommand('copy'); /* <for IE 11 only> */try{window.clipboardData.setData('text', obj_this.innerHTML);}catch(e){/* nothing to do */}/* </for IE 11 only> */console.log( 'String `' + obj_this.innerHTML + '` have been copied.'); }(this));" onMouseOver="this.style.background='#00ff0f'" onMouseOut="this.style.background=''" title="Click to Copy">removeNPMAbsolutePaths</code></a> という Package (Module) 。<br>
+<code onClick="(function(obj_this){var range = document.createRange(); range.selectNodeContents(obj_this); var obj_selection = window.getSelection();obj_selection.removeAllRanges();obj_selection.addRange(range); document.execCommand('copy'); /* <for IE 11 only> */try{window.clipboardData.setData('text', obj_this.innerHTML);}catch(e){/* nothing to do */}/* </for IE 11 only> */console.log( 'String `' + obj_this.innerHTML + '` have been copied.'); }(this));" onMouseOver="this.style.background='#00ff0f'" onMouseOut="this.style.background=''" title="Click to Copy">npm install -g removeNPMAbsolutePaths</code> して使えるようにしておくといい。<br>
+添付の <code onClick="(function(obj_this){var range = document.createRange(); range.selectNodeContents(obj_this); var obj_selection = window.getSelection();obj_selection.removeAllRanges();obj_selection.addRange(range); document.execCommand('copy'); /* <for IE 11 only> */try{window.clipboardData.setData('text', obj_this.innerHTML);}catch(e){/* nothing to do */}/* </for IE 11 only> */console.log( 'String `' + obj_this.innerHTML + '` have been copied.'); }(this));" onMouseOver="this.style.background='#00ff0f'" onMouseOut="this.style.background=''" title="Click to Copy">install-from-local\removeNPMAbsolutePaths-2.0.0.zip</code> からインストールしてもいい。</p>
+
+    </body>
+    </html>
